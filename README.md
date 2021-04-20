@@ -9,3 +9,12 @@ This Dockerfile assumes the following:
 
 To learn more about JFrog Platform integration with Docker, visit [Docker Registry Documentation](https://www.jfrog.com/confluence/display/JFROG/Docker+Registry).
 
+```
+$ docker login juanmi.jfrog.io
+$ docker build --tag juanmi.jfrog.io/docker/my-docker-image:latest .
+$ docker push juanmi.jfrog.io/docker/my-docker-image:latest
+```
+
+
+# Captura final del resultado
+![alt text](./Captura%20de%20pantalla.png) 
